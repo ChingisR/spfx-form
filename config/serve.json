@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "initialPage": "https://dev899.sharepoint.com/_layouts/workbench.aspx",
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://dev899.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "d9792d4c-aeb8-498c-baf1-2b5c5c2e6bbd",
+        "PageType": 8,
+        "RootFolder": "/Lists/SitesList",
+        "properties": {
+          "emailDomain": "dev899.com",
+          "managedPath": ""
+        }
+      }
+    },
+    "newSiteForm_NewForm": {
+      "pageUrl": "https://dev899.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "d9792d4c-aeb8-498c-baf1-2b5c5c2e6bbd",
+        "PageType": 8,
+        "RootFolder": "/Lists/SitesList",
+        "properties": {
+          "emailDomain": "dev899.com",
+          "managedPath": ""
+        }
+      }
+    },
+    "newSiteForm_EditForm": {
+      "pageUrl": "https://dev899.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "d9792d4c-aeb8-498c-baf1-2b5c5c2e6bbd",
+        "PageType": 6,
+        "RootFolder": "/Lists/SitesList",
+        "ID": 1,
+        "properties": {
+          "emailDomain": "dev899.com",
+          "managedPath": ""
+        }
+      }
+    },
+    "newSiteForm_ViewForm": {
+      "pageUrl": "https://dev899.sharepoint.com/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "d9792d4c-aeb8-498c-baf1-2b5c5c2e6bbd",
+        "PageType": 4,
+        "RootFolder": "/Lists/SitesList",
+        "ID": 1,
+        "properties": {
+          "emailDomain": "dev899.com",
+          "managedPath": ""
+        }
+      }
+    }
+  }
+}
