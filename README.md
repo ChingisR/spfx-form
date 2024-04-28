@@ -2,5 +2,5 @@
 
 ## Summary
 
-This solution is an SPFx Form Customizer with a similar experience to the SharePoint default new form.
+This solution is an SPFx Form Customizer with a similar experience to the SP default new form.
 
